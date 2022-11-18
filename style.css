@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main  {
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right top, #51b2eb, #d32de9);
+}
+.box {
+    height: 90%;
+    width: 400px;
+    background-color: beige;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.login {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.username {
+    margin-bottom: 30px;
+}
+.username, .password  {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.inp {
+    height: 40px;
+    background-color: beige;
+    border-style: hidden hidden solid  hidden;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.form a {
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 180px;
+}
+.login-button  {
+    margin:30px 50px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to right top, #51b2eb, #d719f0);
+    cursor: pointer;
+    color: beige;
+    font-size: 15px;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    gap: 10px;
+}
+.fa-brands {
+    font-size: 30px;
+}
+.fa-facebook {
+    color: #4267B2;
+    cursor: pointer;
+}
+.fa-twitter{
+    color: #1DA1F2;
+    cursor: pointer;
+}
+.fa-google {
+    color: #c71610;
+    cursor: pointer;
+}
+
+.alter {
+    text-align: center;
+    margin-top: 40px;
+  
+}
